@@ -45,7 +45,7 @@ module ActionDispatch
                 
         def destroy(env)
           if sid = current_session_id(env)
-            find_session(sid).destory
+            find_session(sid).destroy
           end
         end
         
